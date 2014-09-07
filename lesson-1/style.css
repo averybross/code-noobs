@@ -1,0 +1,41 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+	width:1200px;
+	margin: 0 auto 0 auto;
+	/* margin: top right down left */
+}
+#header {
+	background: gray;
+	overflow: hidden;
+	padding:10px;
+}
+#logo img {
+	max-width:200px;
+	float: left;
+}
+#nav ul {
+	float: right;
+	list-style:none;
+	padding: 25px 0;
+}
+#nav li {
+	display: inline;
+}
+
+@media (min-width: 768px) { /* Tablet */
+	body {
+		color: red;
+	}
+}
+
+@media (min-width: 992px) { /* Desktop */
+	body {
+		color: green;
+	}
+}
+
+
