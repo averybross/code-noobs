@@ -24,11 +24,11 @@ nav {
 nav li>a {
 	color: #FFF !important;
 	border-top: 5px solid #777;
-	padding-top: 2rem !important;
-	padding-bottom: 2rem !important;
+	padding-top: 1.2rem !important;
+	padding-bottom: 1.8rem !important;
 }
 
 nav li:hover a {
-	color: #000 !important;
+	color: #ddd !important;
 	border-top: 5px solid #a0ce4d;
 }
