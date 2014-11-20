@@ -1,7 +1,4 @@
-.navbar-default {
-	background: none;
-	border: none;
-}
+/* Bootstrap Overwrites */
 
 .container {
 	width: 100%;
@@ -10,6 +7,13 @@
 .row {
 	width:1170px;
 	margin: 0 auto;
+}
+
+/* Header Styles */
+
+.navbar-default {
+	background: none;
+	border: none;
 }
 
 section#header {
@@ -32,3 +36,6 @@ nav li:hover a {
 	color: #ddd !important;
 	border-top: 5px solid #a0ce4d;
 }
+
+/* Typography */
+/* 2. img.header-icon + h1, img.header-icon + h2, img.header-icon + h3, img.header-icon + h4, img.header-icon + h5, img.header-icon + h6 { } */
